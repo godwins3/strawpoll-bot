@@ -79,12 +79,9 @@ def prepare (args, motd):
 	# Get Checkbox ID
 	ind = page.find ("\"field-options-")
 
-	#checkboxID = page [ind:]
+	
 	checkboxID = "NMnQk1L2MZ6"
-	#checkboxID = checkboxID [checkboxID.find ("value=\"") + len ("value=\""):]
-	#checkboxID = checkboxID [:checkboxID.find ("\"")]
-	#checkboxID = str (int (checkboxID) + opt - 1)
-
+	
 	if (page.find (checkboxID) == -1):
 		print ("Couldn't find option {}".format (opt))
 		exit (1)
