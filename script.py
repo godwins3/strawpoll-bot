@@ -40,7 +40,7 @@ $JT&yd$     $$$$$$$$$$$$$$$$.    $    $$    $   .$$$$$$$$$$$$$$$$     $by&TL$
 def prepare (args, motd):
 	print (motd)
 
-	poll_id = "mpnboGlGYg5"
+	poll_id = "e2narrvJAgB"
 	headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'}
 	url = "https://strawpoll.com/polls/" + poll_id
 	try:
@@ -79,7 +79,7 @@ def prepare (args, motd):
 	ind = page.find ("\"field-options-")
 
 	
-	checkboxID = "NMnQk1L2MZ6"
+	checkboxID = "e6Z27oMX8yN"
 	
 	if (page.find (checkboxID) == -1):
 		print ("Couldn't find option {}".format (opt))
